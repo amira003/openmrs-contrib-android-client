@@ -110,9 +110,9 @@ public final class ToastUtil {
         public void run() {
             try {
                 if (mDuration == Toast.LENGTH_SHORT) {
-                    Thread.sleep(2000);
+                    Thread.sleep(15000);
                 } else {
-                    Thread.sleep(3500);
+                    Thread.sleep(20000);
                 }
                 logger.d("Recycle bitmap: " + mBitmap.toString());
                 mBitmap.recycle();
